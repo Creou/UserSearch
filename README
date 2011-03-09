@@ -1,0 +1,41 @@
+==================
+User Data Searcher
+==================
+
+Searches for users on a windows domain using the command line.
+
+
+Usage:
+    usersearch [/? | /A | searchdata] [/C:][N][F][D][S]
+
+    /A - Return all users
+
+    /? - Display this help
+
+    searchdata  - The data to search users for (case insensitive)
+
+    /C - Specify the cateogies to search (omit to search all categories)
+
+         N = Name
+         F = Full Name
+         D = Description
+         S = SID
+
+Examples:
+
+    Search all categories for "smith"
+     usersearch smith
+
+    Search full name for "bob"
+     usersearch bob /C:F
+
+    Search full name and description for "jim"
+     usersearch jim /C:FD
+
+    Display all users
+     usersearch /A
+
+
+
+
+
