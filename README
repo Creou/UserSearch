@@ -4,6 +4,15 @@ User Data Searcher
 
 Searches for users on a windows domain using the command line.
 
+===
+
+All code in this project is covered under the terms 
+of the GNU General Public License a copy of which 
+is available in the same directory under the file 
+name LICENSE
+
+===
+
 
 Usage:
     usersearch [/? | /A | searchdata] [/C:][N][F][D][S]
@@ -37,5 +46,8 @@ Examples:
 
 
 
+===
 
+This program is Copyright 2011 Simon P Stevens
 
+===
